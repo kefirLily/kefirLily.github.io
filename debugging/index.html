@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="JavaScript,vue," />
+  <meta name="keywords" content="Debugger," />
 
 
 
@@ -79,21 +79,25 @@
 
 
 
-<meta name="description" content="欢迎访问我的博客 关于vue的第一篇文章写了vue-cli，后续文章中会详细介绍vue的用法，以及VUEX的使用方法，esLint,webpack,源码等详细文章，欢迎浏览。 vue-cli 是一个官方发布 vue.js 项目脚手架，使用 vue-cli 可以快速创建 vue 项目，GitHub地址是：vue-cli 一、node.js首先需要安装node环境，可以直接到中文官网http://no">
-<meta name="keywords" content="JavaScript,vue">
+<meta name="description" content="作为一名Front-end Development Engineer（FE）可谓说浏览器是最常接触的软件，各种各样的浏览器最让你头疼了吧。 本篇文章介绍写 移动端调试技巧 各种设备调试大同小异，文章主要使用 MI 9 SE 设备 文章讲解两种调试方式  google chrome 手机联调 uc 浏览器 手机联调  手机打开‘开发者选项’path: 手机–&amp;gt; 设置 –&amp;gt; 系统参数 –&amp;">
+<meta name="keywords" content="Debugger">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Vue(一) -- vue-cli(2.x)">
-<meta property="og:url" content="http://yoursite.com/vue-cli/index.html">
+<meta property="og:title" content="移动端调试技巧">
+<meta property="og:url" content="http://yoursite.com/debugging/index.html">
 <meta property="og:site_name" content="墨痕">
-<meta property="og:description" content="欢迎访问我的博客 关于vue的第一篇文章写了vue-cli，后续文章中会详细介绍vue的用法，以及VUEX的使用方法，esLint,webpack,源码等详细文章，欢迎浏览。 vue-cli 是一个官方发布 vue.js 项目脚手架，使用 vue-cli 可以快速创建 vue 项目，GitHub地址是：vue-cli 一、node.js首先需要安装node环境，可以直接到中文官网http://no">
+<meta property="og:description" content="作为一名Front-end Development Engineer（FE）可谓说浏览器是最常接触的软件，各种各样的浏览器最让你头疼了吧。 本篇文章介绍写 移动端调试技巧 各种设备调试大同小异，文章主要使用 MI 9 SE 设备 文章讲解两种调试方式  google chrome 手机联调 uc 浏览器 手机联调  手机打开‘开发者选项’path: 手机–&amp;gt; 设置 –&amp;gt; 系统参数 –&amp;">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://yoursite.com/vue-cli/1.jpg">
-<meta property="og:image" content="http://yoursite.com/vue-cli/2.jpg">
-<meta property="og:updated_time" content="2019-07-15T06:50:42.046Z">
+<meta property="og:image" content="http://yoursite.com/debugging/phone2.jpg">
+<meta property="og:image" content="http://yoursite.com/debugging/phone1.jpg">
+<meta property="og:image" content="http://yoursite.com/debugging/chrome1.png">
+<meta property="og:image" content="http://yoursite.com/debugging/chrome2.png">
+<meta property="og:image" content="http://yoursite.com/debugging/uc1.jpg">
+<meta property="og:image" content="http://yoursite.com/debugging/uc2.jpg">
+<meta property="og:updated_time" content="2019-08-03T03:28:54.026Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Vue(一) -- vue-cli(2.x)">
-<meta name="twitter:description" content="欢迎访问我的博客 关于vue的第一篇文章写了vue-cli，后续文章中会详细介绍vue的用法，以及VUEX的使用方法，esLint,webpack,源码等详细文章，欢迎浏览。 vue-cli 是一个官方发布 vue.js 项目脚手架，使用 vue-cli 可以快速创建 vue 项目，GitHub地址是：vue-cli 一、node.js首先需要安装node环境，可以直接到中文官网http://no">
-<meta name="twitter:image" content="http://yoursite.com/vue-cli/1.jpg">
+<meta name="twitter:title" content="移动端调试技巧">
+<meta name="twitter:description" content="作为一名Front-end Development Engineer（FE）可谓说浏览器是最常接触的软件，各种各样的浏览器最让你头疼了吧。 本篇文章介绍写 移动端调试技巧 各种设备调试大同小异，文章主要使用 MI 9 SE 设备 文章讲解两种调试方式  google chrome 手机联调 uc 浏览器 手机联调  手机打开‘开发者选项’path: 手机–&amp;gt; 设置 –&amp;gt; 系统参数 –&amp;">
+<meta name="twitter:image" content="http://yoursite.com/debugging/phone2.jpg">
 
 
 
@@ -123,13 +127,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/vue-cli/"/>
+  <link rel="canonical" href="http://yoursite.com/debugging/"/>
 
 
 
 
 
-  <title>Vue(一) -- vue-cli(2.x) | 墨痕</title>
+  <title>移动端调试技巧 | 墨痕</title>
   
 
 
@@ -294,7 +298,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/vue-cli/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/debugging/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="wjf">
@@ -311,7 +315,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Vue(一) -- vue-cli(2.x)</h1>
+          <h1 class="post-title" itemprop="name headline">移动端调试技巧</h1>
         
 
         <div class="post-meta">
@@ -323,8 +327,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-02T22:14:13+08:00">
-                2018-04-02
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-08-03T13:01:11+08:00">
+                2019-08-03
               </time>
             
 
@@ -346,8 +350,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/vue/" itemprop="url" rel="index">
-                    <span itemprop="name">vue</span>
+                  <a href="/categories/Debugger/" itemprop="url" rel="index">
+                    <span itemprop="name">Debugger</span>
                   </a>
                 </span>
 
@@ -383,25 +387,55 @@
       
 
       
-        <p>欢迎访问我的博客</p>
-<p>关于vue的第一篇文章写了vue-cli，后续文章中会详细介绍vue的用法，以及VUEX的使用方法，esLint,webpack,源码等详细文章，欢迎浏览。</p>
-<p>vue-cli 是一个官方发布 vue.js 项目脚手架，使用 vue-cli 可以快速创建 vue 项目，GitHub地址是：<a href="https://github.com/vuejs/vue-cli" target="_blank" rel="noopener">vue-cli</a></p>
-<h3 id="一、node-js"><a href="#一、node-js" class="headerlink" title="一、node.js"></a>一、node.js</h3><p>首先需要安装node环境，可以直接到中文官网<a href="http://nodejs.cn/" target="_blank" rel="noopener">http://nodejs.cn/</a>下载安装包。</p>
-<p>只是这样安装的 node 是固定版本的，如果需要多版本的 node，可以使用 nvm 安装</p>
-<p>安装完成后，可以命令行工具中输入 node -v 和 npm -v，如果能显示出版本号，就说明安装成功。<br><img src="/vue-cli/1.jpg" alt="node"></p>
-<h3 id="二、安装vue-cli"><a href="#二、安装vue-cli" class="headerlink" title="二、安装vue-cli"></a>二、安装vue-cli</h3><p>npm install -g vue-cli<br>或者 npm i -g vue-cli // i是install的简写 -g 全局安装<br>但是这种安装方式比较慢，可以使用淘宝镜像安装，所以我们先设置 cnpm：</p>
-<p>npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org" target="_blank" rel="noopener">https://registry.npm.taobao.org</a></p>
-<p>cnpm i -g vue-cli</p>
-<p>在命令行使用vue -V 检测vue是否安装成功</p>
-<h3 id="三、生成项目"><a href="#三、生成项目" class="headerlink" title="三、生成项目"></a>三、生成项目</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">vue-cli init webpack vue_demo</span><br><span class="line">// simple          最简单的模式(没用！)</span><br><span class="line">// webpack         最大的项目</span><br><span class="line">// webpack-simple  较小的项目</span><br></pre></td></tr></table></figure>
-<p>在这里就讲解webpack模板了</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">$ vue init webpack vue_demo</span><br><span class="line"></span><br><span class="line">? Project name (vue_demo)------------------项目名称（我这里是vue_demo）</span><br><span class="line">? Project description (A Vue.js project)---项目描述</span><br><span class="line">? Project description A Vue.js project</span><br><span class="line">? Author (wjf &lt;n***a@outlook.com&gt;)---------项目作者</span><br><span class="line">? Author wjf &lt;n***a@outlook.com&gt;</span><br><span class="line">? Vue build (Use arrow keys)</span><br><span class="line">? Vue build standalone</span><br><span class="line">? Install vue-router? (Y/n)----------------是否启用vue-router(路由)</span><br><span class="line">? Install vue-router? Yes</span><br><span class="line">? Use ESLint to lint your code? (Y/n)------是否开启js语法检测（建议开启，规范语法）初学者可能不太会可以禁止开启，选择n</span><br><span class="line">? Use ESLint to lint your code? Yes</span><br><span class="line">? Pick an ESLint preset (Use arrow keys)</span><br><span class="line">? Pick an ESLint preset Standard</span><br><span class="line">? Set up unit tests (Y/n)</span><br><span class="line">? Set up unit tests Yes</span><br><span class="line">? Pick a test runner (Use arrow keys)</span><br><span class="line">? Pick a test runner jest</span><br><span class="line">? Setup e2e tests with Nightwatch? (Y/n)---单元测试</span><br><span class="line">? Setup e2e tests with Nightwatch? Yes</span><br><span class="line">? Should we run `npm install` for you after the project has been created? (reco</span><br><span class="line">? Should we run `npm install` for you after the project has been created? (reco</span><br><span class="line">mmended) npm</span><br></pre></td></tr></table></figure>
-<p>新版会自动下载modules,<br>如果没有下载，使用npm install 或者 npm i<br>如果安装有cnpm，可以使用 cnpm i 下载依赖包</p>
-<h4 id="项目结构"><a href="#项目结构" class="headerlink" title="项目结构"></a>项目结构</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line">|-- build                            // 项目构建(webpack)相关代码</span><br><span class="line">|   |-- build.js                     // 生产环境构建代码</span><br><span class="line">|   |-- check-version.js             // 检查node、npm等版本</span><br><span class="line">|   |-- dev-client.js                // 热重载相关</span><br><span class="line">|   |-- dev-server.js                // 构建本地服务器</span><br><span class="line">|   |-- utils.js                     // 构建工具相关</span><br><span class="line">|   |-- vue-loader.conf.js           // 处理vue文件的配置文件</span><br><span class="line">|   |-- webpack.base.conf.js         // webpack基础配置</span><br><span class="line">|   |-- webpack.dev.conf.js          // webpack开发环境配置</span><br><span class="line">|   |-- webpack.prod.conf.js         // webpack生产环境配置</span><br><span class="line">|-- config                           // 项目开发环境配置</span><br><span class="line">|   |-- dev.env.js                   // 开发环境变量</span><br><span class="line">|   |-- index.js                     // 项目一些配置变量</span><br><span class="line">|   |-- prod.env.js                  // 生产环境变量</span><br><span class="line">|   |-- test.env.js                  // 测试环境变量</span><br><span class="line">|-- src                              // 源码目录</span><br><span class="line">|   |-- assets                       // 静态文件，会被webpack处理</span><br><span class="line">|   |-- components                   // vue公共组件</span><br><span class="line">|   |-- store                        // vuex的状态管理</span><br><span class="line">|   |-- router                       // 路由文件</span><br><span class="line">|   |-- App.vue                      // 页面入口文件</span><br><span class="line">|   |-- main.js                      // 程序入口文件，加载各种公共组件</span><br><span class="line">|-- static                           // 静态文件，比如一些图片，json数据等</span><br><span class="line">|-- .babelrc                         // ES6语法编译配置</span><br><span class="line">|-- .editorconfig                    // 定义代码格式</span><br><span class="line">|-- .gitignore                       // git上传需要忽略的文件格式</span><br><span class="line">|-- README.md                        // 项目说明</span><br><span class="line">|-- favicon.ico </span><br><span class="line">|-- index.html                       // 入口页面</span><br><span class="line">|-- package.json                     // 项目基本信息</span><br></pre></td></tr></table></figure>
-<h3 id="google-vue开发插件"><a href="#google-vue开发插件" class="headerlink" title="google vue开发插件"></a>google vue开发插件</h3><p>再说一下vue推荐开发插件<br>细心阅读过官方文档的童鞋肯定发现文档中推荐了一款Vue.js devtools这样的插件</p>
-<p>安装步骤：<br>    google插件商店搜索安装就可以了，<br>    国内墙很高，访问不到google，网上这方面的文章很多，就不在过多介绍了。</p>
-<p><img src="/vue-cli/2.jpg" alt="vue"></p>
-<p>vue-cli 就写到这里了，下一篇会写项目配置文件。</p>
+        <p>作为一名Front-end Development Engineer（FE）可谓说浏览器是最常接触的软件，各种各样的浏览器最让你头疼了吧。</p>
+<p>本篇文章介绍写 移动端调试技巧</p>
+<p>各种设备调试大同小异，文章主要使用 MI 9 SE 设备</p>
+<p>文章讲解两种调试方式</p>
+<ul>
+<li>google chrome 手机联调</li>
+<li>uc 浏览器 手机联调</li>
+</ul>
+<h2 id="手机打开‘开发者选项’"><a href="#手机打开‘开发者选项’" class="headerlink" title="手机打开‘开发者选项’"></a>手机打开‘开发者选项’</h2><p>path: 手机–&gt; 设置 –&gt; 系统参数 –&gt; miui版本（点击三下）</p>
+<p><img src="/debugging/phone2.jpg" alt="phone"></p>
+<p>path: 手机–&gt; 设置 –&gt; 开发者选项 –&gt; USB调试（打开）</p>
+<p><img src="/debugging/phone1.jpg" alt="phone"></p>
+<p>tips：</p>
+<p>可能别的型号手机需要安装驱动，mi9se没有这步骤，</p>
+<p>华为手机可以使用华为助手软件，</p>
+<p>其他手机可以使用其他软件协助连接电脑</p>
+<h2 id="google-chrome-真机调试"><a href="#google-chrome-真机调试" class="headerlink" title="google chrome 真机调试"></a>google chrome 真机调试</h2><p>前期准备</p>
+<ul>
+<li>电脑 google chrome</li>
+<li>手机 google chrome</li>
+<li>数据线（或者同处一个局域网）</li>
+<li>可能需要梯子（翻墙自备，不做说明）</li>
+</ul>
+<h3 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h3><p>打开电脑chrome 访问 chrome://inspect/#devices</p>
+<p><img src="/debugging/chrome1.png" alt="google chrome"></p>
+<h3 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h3><p>选择要调试的页面inspect就可以了<br>就进入dev调试模式了，和浏览器调试基本一样，不做介绍</p>
+<p><img src="/debugging/chrome2.png" alt="google chrom"></p>
+<h2 id="uc-真机调试"><a href="#uc-真机调试" class="headerlink" title="uc 真机调试"></a>uc 真机调试</h2><p>google chrome 调试会用到梯子，可能对于没有梯子的你们就感觉头大了，</p>
+<p>那就介绍一个不需要梯子的国产调试软件</p>
+<p>uc plus 为uc浏览器开发者版本，是为方便前端开发人员进行移动端web项目进行调试</p>
+<p><a href="https://dev.ucweb.com/" target="_blank" rel="noopener">uc plus 官网</a></p>
+<p>因为官方文档很详细，就简单带一下了</p>
+<p>前期准备</p>
+<ul>
+<li>UC Plus 浏览器<ul>
+<li><a href="https://dev.ucweb.com/download/?spm=ucplus.11199946.home-card.1.53974692AdAu7a" target="_blank" rel="noopener">12.1.6.996版本下载地址</a></li>
+</ul>
+</li>
+<li>UC浏览器开发者工具<ul>
+<li><a href="http://img.ucweb.com/s/uae/g/4x/4x/uc-devtools-msi_0.4.1.zip?spm=ucplus.11213556.0.0.78a0253a53uMtZ&amp;file=uc-devtools-msi_0.4.1.zip" target="_blank" rel="noopener">windows 系统下载</a></li>
+<li><a href="http://img.ucweb.com/s/uae/g/4x/4x/uc-devtools_0.4.1.dmg?spm=ucplus.11213556.0.0.78a0253a53uMtZ&amp;file=uc-devtools_0.4.1.dmg" target="_blank" rel="noopener">macOs 系统下载</a></li>
+</ul>
+</li>
+<li>数据线 or 同一局域网</li>
+</ul>
+<h3 id="第一步-1"><a href="#第一步-1" class="headerlink" title="第一步"></a>第一步</h3><p>使用uc plus 浏览器访问你要调试的页面</p>
+<h3 id="第二步-1"><a href="#第二步-1" class="headerlink" title="第二步"></a>第二步</h3><p>打开uc devtools 软件<br><img src="/debugging/uc1.jpg" alt="uc dev"></p>
+<h3 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h3><p>选择需要调试的页面<br><img src="/debugging/uc2.jpg" alt="uc dev"></p>
+<p>后续调试和pc chrome调试一样，不在多说</p>
 
       
     </div>
@@ -419,9 +453,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/JavaScript/" rel="tag"># JavaScript</a>
-          
-            <a href="/tags/vue/" rel="tag"># vue</a>
+            <a href="/tags/Debugger/" rel="tag"># Debugger</a>
           
         </div>
       
@@ -434,8 +466,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/ES6入门/" rel="next" title="你必须要懂的 ES6 语法">
-                <i class="fa fa-chevron-left"></i> 你必须要懂的 ES6 语法
+              <a href="/vue-7/" rel="next" title="Vue(六) -- v-model">
+                <i class="fa fa-chevron-left"></i> Vue(六) -- v-model
               </a>
             
           </div>
@@ -443,10 +475,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/vue-config/" rel="prev" title="Vue(二) -- 项目配置">
-                Vue(二) -- 项目配置 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -592,7 +620,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、node-js"><span class="nav-number">1.</span> <span class="nav-text">一、node.js</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、安装vue-cli"><span class="nav-number">2.</span> <span class="nav-text">二、安装vue-cli</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#三、生成项目"><span class="nav-number">3.</span> <span class="nav-text">三、生成项目</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#项目结构"><span class="nav-number">3.1.</span> <span class="nav-text">项目结构</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#google-vue开发插件"><span class="nav-number">4.</span> <span class="nav-text">google vue开发插件</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#手机打开‘开发者选项’"><span class="nav-number">1.</span> <span class="nav-text">手机打开‘开发者选项’</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#google-chrome-真机调试"><span class="nav-number">2.</span> <span class="nav-text">google chrome 真机调试</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#第一步"><span class="nav-number">2.1.</span> <span class="nav-text">第一步</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第二步"><span class="nav-number">2.2.</span> <span class="nav-text">第二步</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#uc-真机调试"><span class="nav-number">3.</span> <span class="nav-text">uc 真机调试</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#第一步-1"><span class="nav-number">3.1.</span> <span class="nav-text">第一步</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第二步-1"><span class="nav-number">3.2.</span> <span class="nav-text">第二步</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第三步"><span class="nav-number">3.3.</span> <span class="nav-text">第三步</span></a></li></ol></li></ol></div>
             
 
           </div>
